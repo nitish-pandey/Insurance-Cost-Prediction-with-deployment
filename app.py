@@ -13,7 +13,7 @@ model = joblib.load(open('model.pkl', 'rb'))
 @app.route('/')
 
 def hello():
-    return render_template('home.html')
+    return render_template('index.html')
 
 @app.route('/',methods=['GET','POST'])
 
@@ -21,7 +21,7 @@ def predict():
   input_values = [float(x) for x in request.form.values()]
   inp_features = [input_values]
   prediction = model.predict(inp_features)
-  return render_template('home.html',output=prediction)
+  return render_template('home.html',output='The estimated cost of insurance is {} $'.format(prediction))
   
 if __name__=='__main__':
   app.run(debug=True)
