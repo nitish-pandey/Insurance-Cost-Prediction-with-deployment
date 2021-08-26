@@ -24,7 +24,8 @@ And also some of the packages from the sklearn library .
 This is one of the important part of the model building which helps to understand the data.
 At first , we have drawn out some insights from the data using pandas library.
 And then ,we install the dataprep library which is used for explotary data analysis and create the report using it. 
-The prepared report is ().
+
+The prepared report is  at EDA report/report_from_dataprep.html 
 
 And then, we remove the region column as above mentioned .
 we encode the smoker and gender feature by one hot encoding using the get_dummies method of pandas .
@@ -47,3 +48,8 @@ We save the model using pickle or joblib library with the .pkl extension
 
 
 ## 2. Depolyment using Flask
+
+Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
+
+![image](https://user-images.githubusercontent.com/85100877/130965880-5aa20210-4968-4923-aa81-d481f10f7c6b.png)
+
