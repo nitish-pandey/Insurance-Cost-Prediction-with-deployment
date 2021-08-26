@@ -3,27 +3,27 @@
 <html>
 
    <head>
-      <title>Text Input Control</title>
+      <title>Insurance cost Prediction</title>
    </head>
 	
    <body bgcolor='lightblue'>
    <center>
       <form action="{{url_for('predict')}}" method="post" >
-         Enter your age : <input type = "text" name = "age" />
+         Enter your age : <input type = "number" name = "age" required/>
          <br>
-         Enter your BMI : <input type = "text" name = "bmi" />
+         Enter your BMI : <input type = "number" name = "bmi"  required/>
          <br>
-         Enter the no. of children : <input type="text" name ="children"/><br>
+         Enter the no. of children : <input type="number" name ="children" required/><br>
          Smoker : <input type="radio" name="smoker" value =1>Yes
          <input type="radio" name="smoker" value=0>No<br>
          Gender : <input type="radio" name="sex" value =1>Male
          <input type='radio' name='sex' value=0>Female<br>
-         <button type='submit' >Submit</button>
+         <button type='submit'  class="btn btn-primary btn-block btn-large">Calculate</button>
 
        
       </form>
 
-      <br><br>The estimated cost of insurance is : {{prediction_text}}<br>
+      <br><br>{{output}}<br>
       </center>
    </body>
 	
