@@ -13,6 +13,9 @@ certain area but we are building the generalized model for the people across the
 
 ## This project consist of the following steps :
 ### 1. Creating the Model using python in Google-Colaboratory 
+
+![image](https://user-images.githubusercontent.com/85100877/130967603-45a3a9ff-0653-47ee-bad8-82c4fe24ca23.png)
+
 For this project , we are using the Google colabotary ( Colaboratory, or “Colab” for short, is a product from Google Research. Colab allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education.)
 Google Colab provides us the virtual environment with automated setup with pre installed all the basic libraries along with 
 the web hosted Memory and Disk-Space.
