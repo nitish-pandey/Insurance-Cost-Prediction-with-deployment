@@ -1,5 +1,8 @@
 # Insurance-Prediction-with-deployment
-In  this machine learning project , We are going to predict the Insurance cost using some inputs like age , bmi, etc.
+The main aim of this Machine learning project is to create a model and deploy it to predict 
+the estimated cost the insurance policy with the certain inputs from the user like Age , BMI , No of children ,Smoker or not 
+and the Gender.
+
 
 We are using the Dataset which is available in Kaggle .( https://www.kaggle.com/mirichoi0218/insurance )
 The dataset consist of Age , BMI , No of childrens, Gender , Smoker status , region and the insurance charge.
