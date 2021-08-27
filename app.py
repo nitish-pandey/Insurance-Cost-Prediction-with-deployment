@@ -21,7 +21,7 @@ def predict():
   input_values = [float(x) for x in request.form.values()]
   inp_features = [input_values]
   prediction = model.predict(inp_features)
-  return render_template('home.html',output='The estimated cost of insurance is {} $'.format(prediction))
+  return render_template('index.html',output='The estimated cost of insurance is {} $'.format(prediction))
   
 if __name__=='__main__':
   app.run(debug=True)
