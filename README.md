@@ -56,6 +56,6 @@ We save the model using pickle or joblib library with the .pkl extension
 Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.
 
 ![image](https://user-images.githubusercontent.com/85100877/130965880-5aa20210-4968-4923-aa81-d481f10f7c6b.png)
-
+We create the web app using flask and run it in our environment .
 The web page after deployment looks like :
 ![deployed page](https://user-images.githubusercontent.com/85100877/131083851-bfc94265-3d53-47e1-ba31-57fcf399f886.PNG)
