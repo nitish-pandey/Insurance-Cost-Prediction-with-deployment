@@ -1,3 +1,4 @@
+
 # Insurance-Prediction-with-deployment
 The main aim of this Machine learning project is to create a machine learning model and deploy it to predict 
 the estimated cost the insurance policy with the certain inputs from the user like Age , BMI , No of children ,Smoker or not 
@@ -56,3 +57,5 @@ Flask is a micro web framework written in Python. It is classified as a microfra
 
 ![image](https://user-images.githubusercontent.com/85100877/130965880-5aa20210-4968-4923-aa81-d481f10f7c6b.png)
 
+The web page after deployment looks like :
+![deployed page](https://user-images.githubusercontent.com/85100877/131083851-bfc94265-3d53-47e1-ba31-57fcf399f886.PNG)
